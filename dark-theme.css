@@ -1,0 +1,82 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3700b3;
+}
+
+.header, .footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    border-color: #bb86fc;
+}
+
+.button {
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #3700b3;
+}
+
+.cart-item {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.checkout-button {
+    background-color: #03dac6;
+    color: #121212;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #018786;
+}
+
+.interactive-background {
+    background: linear-gradient(135deg, #1f1f1f 25%, #2e2e2e 25%, #2e2e2e 50%, #1f1f1f 50%, #1f1f1f 75%, #2e2e2e 75%, #2e2e2e);
+    background-size: 28.28px 28.28px;
+    animation: moveBackground 10s linear infinite;
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 28.28px 28.28px;
+    }
+}
